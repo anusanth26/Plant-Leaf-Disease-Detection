@@ -1,12 +1,12 @@
-**🌿 Plant Disease Classification Using Machine Learning**
+**Plant Disease Classification Using Machine Learning**
 
-**📌 Project Overview**
+**Project Overview**
 
 This project focuses on image classification using different machine learning algorithms and a combination of color, texture, and shape features. The goal was to evaluate multiple models and identify the most effective approach for achieving high accuracy and robustness on unseen data.
 
 We experimented with Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Random Forest (RF), and XGBoost classifiers, each trained on progressively richer feature sets.
 
-**⚙️ Features Extracted**
+**Features Extracted**
 
 Color Features:
 
@@ -26,7 +26,7 @@ Shape Features:
 
   -->Contour Descriptors: Aspect Ratio, Extent, Solidity
 
-## 📊 Models & Results
+##  Models & Results
 
 | Model | Features Used | Accuracy |
 |-------|---------------|----------|
@@ -36,7 +36,7 @@ Shape Features:
 | **Random Forest** | Statistical Moments, 3D Color Histogram, LBP, GLCM, Shape Features | 97% |
 | **XGBoost** | Statistical Moments, 3D Color Histogram, LBP, GLCM, Shape Features | 98% |
 
-**🔍 Key Observations**
+**Key Observations**
 
 SVM showed strong baseline performance but improved further with texture features.
 
@@ -46,11 +46,11 @@ Random Forest provided stable performance with richer features.
 
 XGBoost achieved the highest accuracy (98%) due to its boosting mechanism and hyperparameter tuning, and generalized well on unseen data.
 
-**✅ Conclusion**
+**Conclusion**
 
 The project demonstrates that combining color, texture, and shape features significantly improves classification accuracy. Among all models, XGBoost proved to be the most effective, offering both high accuracy and robustness on unseen data. This highlights the importance of advanced ensemble methods and feature richness in image classification tasks.
 
-**🚀 Future Works**
+**Future Works**
 
 Extend feature extraction with deep learning–based embeddings (CNNs).
 
