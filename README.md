@@ -6,6 +6,11 @@ This project focuses on image classification using different machine learning al
 
 We experimented with Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Random Forest (RF), and XGBoost classifiers, each trained on progressively richer feature sets.
 
+**To Download Dataset:**
+  --> Link: https://www.kaggle.com/datasets/emmarex/plantdisease?select=PlantVillage
+  
+  --> Execute the **download_dataset.py" file from the repository
+
 **Features Extracted**
 
 Color Features:
