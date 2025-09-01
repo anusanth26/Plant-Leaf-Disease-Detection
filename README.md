@@ -10,7 +10,7 @@ We experimented with Support Vector Machine (SVM), K-Nearest Neighbors (KNN), Ra
   
   --> Link: https://www.kaggle.com/datasets/emmarex/plantdisease?select=PlantVillage
   
-  --> Execute the **download_dataset.py" file from the repository
+  --> Execute the **download_dataset.py** file from the repository
 
 **Features Extracted**
 
