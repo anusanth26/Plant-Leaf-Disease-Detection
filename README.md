@@ -30,11 +30,11 @@ Shape Features:
 
 | Model | Features Used | Accuracy |
 |-------|---------------|----------|
-| **SVM** | Mean Color, Color Histogram, Color Moments, HSV | 91% |
-| **SVM (Extended)** | Above + LBP, GLCM | 93% |
-| **KNN** | Color Moments, HSV Histogram, LBP, GLCM, Shape Features | 95% (Overfitting on unseen data) |
-| **Random Forest** | Statistical Moments, 3D Color Histogram, LBP, GLCM, Shape Features | 97% |
-| **XGBoost** | Statistical Moments, 3D Color Histogram, LBP, GLCM, Shape Features | 98% |
+| **SVM** | Mean Color, Color Histogram, Color Moments, HSV | 91.49% |
+| **SVM (Extended)** | Above + LBP, GLCM | 93.12% |
+| **KNN** | Color Moments, HSV Histogram, LBP, GLCM, Shape Features | 95.44% (Overfitting on unseen data) |
+| **Random Forest** | Statistical Moments, 3D Color Histogram, LBP, GLCM, Shape Features | 97.14% |
+| **XGBoost** | Statistical Moments, 3D Color Histogram, LBP, GLCM, Shape Features | 98.13% |
 
 **Key Observations**
 
